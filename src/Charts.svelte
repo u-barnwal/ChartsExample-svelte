@@ -21,26 +21,29 @@
 
 <main class="p-10">
   <div class="flex flex-wrap mb-3">
-    <h2 class="w-1/3 px-3">
+    <div class="w-1/3 px-3">
       <a
+        class="text-3xl hover:no-underline"
         href="https://www.npmjs.com/package/@carbon/charts-svelte"
         target="_blank">Carbon</a
       >
-    </h2>
+    </div>
 
-    <h2 class="w-1/3 px-3">
+    <div class="w-1/3 px-3">
       <a
+        class="text-3xl hover:no-underline"
         href="https://www.npmjs.com/package/svelte-frappe-charts"
         target="_blank">Frappe</a
       >
-    </h2>
+    </div>
 
-    <h2 class="w-1/3 px-3">
+    <div class="w-1/3 px-3">
       <a
+        class="text-3xl hover:no-underline"
         href="https://froala.com/charts/docs/frameworks/svelte/"
         target="_blank">Froala</a
       >
-    </h2>
+    </div>
   </div>
 
   <div class="flex flex-wrap">
