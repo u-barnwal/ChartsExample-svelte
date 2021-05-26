@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <Charts />
+  <Charts /> 
 </main>
 
 <style global lang="postcss">
