@@ -39,9 +39,16 @@
 
     <div class="w-1/3 px-3">
       <a
-        class="text-3xl hover:no-underline"
+        class="hover:no-underline flex items-center"
         href="https://froala.com/charts/docs/frameworks/svelte/"
-        target="_blank">Froala</a
+        target="_blank"
+      >
+        <span class="text-3xl">Froala</span>
+        <a
+          class="bg-yellow-600 text-xs inline-block py-1 px-2 text-white rounded-md ml-2"
+          href="https://froala.com/charts/pricing/"
+          target="_blank">Paid</a
+        ></a
       >
     </div>
   </div>
