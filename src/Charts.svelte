@@ -120,18 +120,39 @@
       >
 
       <Collapsible title="Styling">
-        <FeatureItem title="Color">Customizable</FeatureItem>
-        <FeatureItem title="Legends">Highly Customizable</FeatureItem>
-        <FeatureItem title="Locale">Supported</FeatureItem>
-        <FeatureItem title="Thresholds">Supported</FeatureItem>
-        <FeatureItem title="Toolbar">Zoom In/Out, Undo, Range</FeatureItem>
+        <FeatureItem
+          title="Color"
+          link="https://froala.com/charts/docs/api/options/"
+          >Customizable</FeatureItem
+        >
+        <FeatureItem
+          title="Legends"
+          link="https://froala.com/charts/docs/api/options/"
+          >Customizable</FeatureItem
+        >
+        <FeatureItem
+          title="Locale"
+          link="https://froala.com/charts/docs/api/options/"
+          con>Not Supported</FeatureItem
+        >
+        <FeatureItem
+          title="Thresholds"
+          link="https://froala.com/charts/docs/api/options/"
+          con>Not Supported</FeatureItem
+        >
+        <FeatureItem
+          title="Toolbar"
+          link="https://froala.com/charts/docs/api/options/">Export</FeatureItem
+        >
         <FeatureItem title="Tooltip" con>Not Customizable</FeatureItem>
       </Collapsible>
 
       <Collapsible title="Features">
         <FeatureItem>Responsive</FeatureItem>
         <FeatureItem>Interactive</FeatureItem>
-        <FeatureItem>Easy to Use</FeatureItem>
+        <FeatureItem con>Not Easy to Use</FeatureItem>
+        <FeatureItem>Exportable</FeatureItem>
+        <FeatureItem>Animated</FeatureItem>
       </Collapsible>
     </div>
   </div>
