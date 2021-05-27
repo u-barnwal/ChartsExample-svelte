@@ -15,6 +15,8 @@
   import SvelteFC, { fcRoot } from "svelte-froalacharts";
 
   import ChartContainer from "./components/ChartContainer.svelte";
+  import Collapsible from "./components/Collapsible.svelte";
+  import FeatureItem from "./components/FeatureItem.svelte";
 
   fcRoot(FroalaCharts, FroalaTheme);
 </script>
@@ -27,6 +29,20 @@
         href="https://www.npmjs.com/package/@carbon/charts-svelte"
         target="_blank">Carbon</a
       >
+
+      <Collapsible title="Styling">
+        <FeatureItem title="Color">Customizable</FeatureItem>
+        <FeatureItem title="Legends">Highly Customizable</FeatureItem>
+        <FeatureItem title="Locale">Supported</FeatureItem>
+        <FeatureItem title="Thresholds">Supported</FeatureItem>
+        <FeatureItem title="Toolbar">Zoom In/Out, Undo, Range</FeatureItem>
+      </Collapsible>
+
+      <Collapsible title="Features">
+        <FeatureItem>Responsive</FeatureItem>
+        <FeatureItem>Interactive</FeatureItem>
+        <FeatureItem>Easy to Use</FeatureItem>
+      </Collapsible>
     </div>
 
     <div class="w-1/3 px-3">
