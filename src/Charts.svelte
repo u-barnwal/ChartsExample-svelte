@@ -130,16 +130,8 @@
           link="https://froala.com/charts/docs/api/options/"
           >Customizable</SpecItem
         >
-        <SpecItem
-          title="Locale"
-          link="https://froala.com/charts/docs/api/options/"
-          con>Not Supported</SpecItem
-        >
-        <SpecItem
-          title="Thresholds"
-          link="https://froala.com/charts/docs/api/options/"
-          con>Not Supported</SpecItem
-        >
+        <SpecItem title="Locale" con>Not Supported</SpecItem>
+        <SpecItem title="Thresholds" con>Not Supported</SpecItem>
         <SpecItem
           title="Toolbar"
           link="https://froala.com/charts/docs/api/options/">Export</SpecItem

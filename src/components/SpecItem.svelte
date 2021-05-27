@@ -4,7 +4,7 @@
   export let con = false;
 </script>
 
-<div class="flex justify-between text-xs mt-0.5">
+<div class="flex justify-between text-xs mt-1">
   {#if title && link}
     <a href={link} target="_blank" class="text-blue-600 font-bold">{title}:</a>
   {:else if title}
