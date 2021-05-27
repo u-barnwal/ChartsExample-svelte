@@ -31,17 +31,40 @@
       >
 
       <Collapsible title="Styling">
-        <FeatureItem title="Color">Customizable</FeatureItem>
-        <FeatureItem title="Legends">Highly Customizable</FeatureItem>
-        <FeatureItem title="Locale">Supported</FeatureItem>
-        <FeatureItem title="Thresholds">Supported</FeatureItem>
-        <FeatureItem title="Toolbar">Zoom In/Out, Undo, Range</FeatureItem>
+        <FeatureItem
+          title="Color"
+          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-colors--custom-colors-simple-bar"
+          >Customizable</FeatureItem
+        >
+        <FeatureItem
+          title="Legends"
+          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-legend--centered-legend-simple-bar"
+          >Highly Customizable, Truncateable</FeatureItem
+        >
+        <FeatureItem
+          title="Locale"
+          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-locale--turkish-locale-date-fns-locales"
+          >Supported</FeatureItem
+        >
+        <FeatureItem
+          title="Toolbar"
+          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-toolbar--vertical-stacked-bar-time-series"
+          >Zoom In/Out, Undo, Range</FeatureItem
+        >
+        <FeatureItem
+          title="Thresholds"
+          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-thresholds--thresholds-line"
+          >Supported</FeatureItem
+        >
+        <FeatureItem title="Tooltip" con>Not Customizable</FeatureItem>
       </Collapsible>
 
       <Collapsible title="Features">
         <FeatureItem>Responsive</FeatureItem>
         <FeatureItem>Interactive</FeatureItem>
         <FeatureItem>Easy to Use</FeatureItem>
+        <FeatureItem con>Not Exportable</FeatureItem>
+        <FeatureItem con>Not Animateable</FeatureItem>
       </Collapsible>
     </div>
 
@@ -51,6 +74,35 @@
         href="https://www.npmjs.com/package/svelte-frappe-charts"
         target="_blank">Frappe</a
       >
+
+      <Collapsible title="Styling">
+        <FeatureItem
+          title="Color"
+          link="https://frappe.io/charts/docs/reference/configuration#colors"
+          >Customizable</FeatureItem
+        >
+        <FeatureItem
+          title="Legends"
+          link="https://frappe.io/charts/docs/reference/configuration#tooltipoptions"
+          >Truncateable</FeatureItem
+        >
+        <FeatureItem title="Locale" con>Not Supported</FeatureItem>
+        <FeatureItem title="Thresholds" con>Not Supported</FeatureItem>
+        <FeatureItem title="Toolbar" con>Unavailable</FeatureItem>
+        <FeatureItem
+          title="Tooltip"
+          link="https://frappe.io/charts/docs/reference/configuration#tooltipoptions"
+          >Customizable</FeatureItem
+        >
+      </Collapsible>
+
+      <Collapsible title="Features">
+        <FeatureItem>Responsive</FeatureItem>
+        <FeatureItem con>Not Interactive</FeatureItem>
+        <FeatureItem>Easy to Use</FeatureItem>
+        <FeatureItem>Exportable</FeatureItem>
+        <FeatureItem>Animated</FeatureItem>
+      </Collapsible>
     </div>
 
     <div class="w-1/3 px-3">
@@ -66,6 +118,21 @@
           target="_blank">Paid</a
         ></a
       >
+
+      <Collapsible title="Styling">
+        <FeatureItem title="Color">Customizable</FeatureItem>
+        <FeatureItem title="Legends">Highly Customizable</FeatureItem>
+        <FeatureItem title="Locale">Supported</FeatureItem>
+        <FeatureItem title="Thresholds">Supported</FeatureItem>
+        <FeatureItem title="Toolbar">Zoom In/Out, Undo, Range</FeatureItem>
+        <FeatureItem title="Tooltip" con>Not Customizable</FeatureItem>
+      </Collapsible>
+
+      <Collapsible title="Features">
+        <FeatureItem>Responsive</FeatureItem>
+        <FeatureItem>Interactive</FeatureItem>
+        <FeatureItem>Easy to Use</FeatureItem>
+      </Collapsible>
     </div>
   </div>
 
