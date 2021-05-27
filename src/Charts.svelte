@@ -15,8 +15,8 @@
   import SvelteFC, { fcRoot } from "svelte-froalacharts";
 
   import ChartContainer from "./components/ChartContainer.svelte";
-  import Collapsible from "./components/Collapsible.svelte";
-  import FeatureItem from "./components/FeatureItem.svelte";
+  import SpecsBox from "./components/SpecsBox.svelte";
+  import SpecItem from "./components/SpecItem.svelte";
 
   fcRoot(FroalaCharts, FroalaTheme);
 </script>
@@ -30,42 +30,42 @@
         target="_blank">Carbon</a
       >
 
-      <Collapsible title="Styling">
-        <FeatureItem
+      <SpecsBox title="Styling">
+        <SpecItem
           title="Color"
           link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-colors--custom-colors-simple-bar"
-          >Customizable</FeatureItem
+          >Customizable</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Legends"
           link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-legend--centered-legend-simple-bar"
-          >Highly Customizable, Truncateable</FeatureItem
+          >Highly Customizable, Truncateable</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Locale"
           link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-locale--turkish-locale-date-fns-locales"
-          >Supported</FeatureItem
+          >Supported</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Toolbar"
           link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-toolbar--vertical-stacked-bar-time-series"
-          >Zoom In/Out, Undo, Range</FeatureItem
+          >Zoom In/Out, Undo, Range</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Thresholds"
           link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-thresholds--thresholds-line"
-          >Supported</FeatureItem
+          >Supported</SpecItem
         >
-        <FeatureItem title="Tooltip" con>Not Customizable</FeatureItem>
-      </Collapsible>
+        <SpecItem title="Tooltip" con>Not Customizable</SpecItem>
+      </SpecsBox>
 
-      <Collapsible title="Features">
-        <FeatureItem>Responsive</FeatureItem>
-        <FeatureItem>Interactive</FeatureItem>
-        <FeatureItem>Easy to Use</FeatureItem>
-        <FeatureItem con>Not Exportable</FeatureItem>
-        <FeatureItem con>Not Animateable</FeatureItem>
-      </Collapsible>
+      <SpecsBox title="Features">
+        <SpecItem>Responsive</SpecItem>
+        <SpecItem>Interactive</SpecItem>
+        <SpecItem>Easy to Use</SpecItem>
+        <SpecItem con>Not Exportable</SpecItem>
+        <SpecItem con>Not Animateable</SpecItem>
+      </SpecsBox>
     </div>
 
     <div class="w-1/3 px-3">
@@ -75,34 +75,34 @@
         target="_blank">Frappe</a
       >
 
-      <Collapsible title="Styling">
-        <FeatureItem
+      <SpecsBox title="Styling">
+        <SpecItem
           title="Color"
           link="https://frappe.io/charts/docs/reference/configuration#colors"
-          >Customizable</FeatureItem
+          >Customizable</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Legends"
           link="https://frappe.io/charts/docs/reference/configuration#tooltipoptions"
-          >Truncateable</FeatureItem
+          >Truncateable</SpecItem
         >
-        <FeatureItem title="Locale" con>Not Supported</FeatureItem>
-        <FeatureItem title="Thresholds" con>Not Supported</FeatureItem>
-        <FeatureItem title="Toolbar" con>Unavailable</FeatureItem>
-        <FeatureItem
+        <SpecItem title="Locale" con>Not Supported</SpecItem>
+        <SpecItem title="Thresholds" con>Not Supported</SpecItem>
+        <SpecItem title="Toolbar" con>Unavailable</SpecItem>
+        <SpecItem
           title="Tooltip"
           link="https://frappe.io/charts/docs/reference/configuration#tooltipoptions"
-          >Customizable</FeatureItem
+          >Customizable</SpecItem
         >
-      </Collapsible>
+      </SpecsBox>
 
-      <Collapsible title="Features">
-        <FeatureItem>Responsive</FeatureItem>
-        <FeatureItem con>Not Interactive</FeatureItem>
-        <FeatureItem>Easy to Use</FeatureItem>
-        <FeatureItem>Exportable</FeatureItem>
-        <FeatureItem>Animated</FeatureItem>
-      </Collapsible>
+      <SpecsBox title="Features">
+        <SpecItem>Responsive</SpecItem>
+        <SpecItem con>Not Interactive</SpecItem>
+        <SpecItem>Easy to Use</SpecItem>
+        <SpecItem>Exportable</SpecItem>
+        <SpecItem>Animated</SpecItem>
+      </SpecsBox>
     </div>
 
     <div class="w-1/3 px-3">
@@ -119,41 +119,41 @@
         ></a
       >
 
-      <Collapsible title="Styling">
-        <FeatureItem
+      <SpecsBox title="Styling">
+        <SpecItem
           title="Color"
           link="https://froala.com/charts/docs/api/options/"
-          >Customizable</FeatureItem
+          >Customizable</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Legends"
           link="https://froala.com/charts/docs/api/options/"
-          >Customizable</FeatureItem
+          >Customizable</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Locale"
           link="https://froala.com/charts/docs/api/options/"
-          con>Not Supported</FeatureItem
+          con>Not Supported</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Thresholds"
           link="https://froala.com/charts/docs/api/options/"
-          con>Not Supported</FeatureItem
+          con>Not Supported</SpecItem
         >
-        <FeatureItem
+        <SpecItem
           title="Toolbar"
-          link="https://froala.com/charts/docs/api/options/">Export</FeatureItem
+          link="https://froala.com/charts/docs/api/options/">Export</SpecItem
         >
-        <FeatureItem title="Tooltip" con>Not Customizable</FeatureItem>
-      </Collapsible>
+        <SpecItem title="Tooltip" con>Not Customizable</SpecItem>
+      </SpecsBox>
 
-      <Collapsible title="Features">
-        <FeatureItem>Responsive</FeatureItem>
-        <FeatureItem>Interactive</FeatureItem>
-        <FeatureItem con>Not Easy to Use</FeatureItem>
-        <FeatureItem>Exportable</FeatureItem>
-        <FeatureItem>Animated</FeatureItem>
-      </Collapsible>
+      <SpecsBox title="Features">
+        <SpecItem>Responsive</SpecItem>
+        <SpecItem>Interactive</SpecItem>
+        <SpecItem con>Not Easy to Use</SpecItem>
+        <SpecItem>Exportable</SpecItem>
+        <SpecItem>Animated</SpecItem>
+      </SpecsBox>
     </div>
   </div>
 
