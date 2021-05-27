@@ -2185,6 +2185,11 @@ svelte-froalacharts@^1.0.0:
   resolved "https://registry.yarnpkg.com/svelte-froalacharts/-/svelte-froalacharts-1.0.0.tgz#351c65b05a48625d16fdb7c1a28b2693a93399ec"
   integrity sha512-u97qQ2Uw1LRVMqu3GUWJdtRptvUucicO8Hk2ur5X6BXVD4RfNIG12UrtI0wk/6MaJ85gGgyYgY9rZscx55tHxg==
 
+svelte-hero-icons@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/svelte-hero-icons/-/svelte-hero-icons-2.2.0.tgz#3e505a19ce858f3584e0443c438fc20187350737"
+  integrity sha512-JFoHwMBptg0Bu07DMTJGu7dHk+vkByvMUpmIIOT0cufg9g+NXu+lJ7pUYKGgS3hzl6wfsFuPuu/zMW/+JJOqjw==
+
 svelte-preprocess@^4.7.3:
   version "4.7.3"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.7.3.tgz#454fa059c2400b15e7a3caeca18993cff9df0e96"
