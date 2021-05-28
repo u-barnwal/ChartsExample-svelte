@@ -57,6 +57,8 @@
     <SpecItem con>Not Animateable</SpecItem>
   </SpecsBox>
 
+  <br />
+
   <ChartContainer>
     <BarChartSimple
       data={[

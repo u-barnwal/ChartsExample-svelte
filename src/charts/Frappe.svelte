@@ -43,6 +43,8 @@
     <SpecItem>Animated</SpecItem>
   </SpecsBox>
 
+  <br />
+
   <ChartContainer>
     <Chart
       data={{
