@@ -21,8 +21,8 @@
   fcRoot(FroalaCharts, FroalaTheme);
 </script>
 
-<main class="p-10">
-  <div class="flex flex-wrap mb-3">
+<main class="p-5 lg:p-10">
+  <div class="lg:flex flex-wrap mb-3">
     <div class="w-1/3 px-3">
       <a
         class="text-3xl hover:no-underline"
