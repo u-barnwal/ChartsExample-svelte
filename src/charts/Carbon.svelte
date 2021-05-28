@@ -13,7 +13,7 @@
   import SpecItem from "../components/SpecItem.svelte";
 </script>
 
-<div class="w-1/3 px-3">
+<div class="w-100 lg:w-1/3 px-3">
   <a
     class="text-3xl hover:no-underline"
     href="https://www.npmjs.com/package/@carbon/charts-svelte"

@@ -7,7 +7,7 @@
   import SpecItem from "../components/SpecItem.svelte";
 </script>
 
-<div class="w-1/3 px-3">
+<div class="w-100 lg:w-1/3 px-3">
   <a
     class="text-3xl hover:no-underline"
     href="https://www.npmjs.com/package/svelte-frappe-charts"
@@ -79,39 +79,39 @@
     />
   </ChartContainer>
 
-    <ChartContainer>
-      <Chart
-        data={{
-          labels: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-          datasets: [
-            { name: "Dataset 1", values: [18, 40, 30, 35, 8, 52, 17, -4] },
-            { name: "Dataset 2", values: [30, 50, -10, 15, 18, 32, 27, 14] },
-          ],
-        }}
-        type="line"
-      />
-    </ChartContainer>
+  <ChartContainer>
+    <Chart
+      data={{
+        labels: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        datasets: [
+          { name: "Dataset 1", values: [18, 40, 30, 35, 8, 52, 17, -4] },
+          { name: "Dataset 2", values: [30, 50, -10, 15, 18, 32, 27, 14] },
+        ],
+      }}
+      type="line"
+    />
+  </ChartContainer>
 
-    <ChartContainer>
-      <Chart
-        data={{
-          labels: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-          datasets: [
-            {
-              name: "Dataset 1",
-              values: [18, 40, 30, 35, 8, 52, 17, -4],
-              chartType: "bar",
-            },
-            {
-              name: "Dataset 2",
-              values: [30, 50, -10, 15, 18, 32, 27, 14],
-              chartType: "line",
-            },
-          ],
-        }}
-        type="axis-mixed"
-      />
-    </ChartContainer>
+  <ChartContainer>
+    <Chart
+      data={{
+        labels: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        datasets: [
+          {
+            name: "Dataset 1",
+            values: [18, 40, 30, 35, 8, 52, 17, -4],
+            chartType: "bar",
+          },
+          {
+            name: "Dataset 2",
+            values: [30, 50, -10, 15, 18, 32, 27, 14],
+            chartType: "line",
+          },
+        ],
+      }}
+      type="axis-mixed"
+    />
+  </ChartContainer>
 
-    <ChartContainer />
+  <ChartContainer />
 </div>

@@ -1,11 +1,8 @@
 <script>
   import FroalaCharts from "froalacharts";
   import FroalaTheme from "froalacharts/themes/froalacharts.theme.froala";
-  import SvelteFC, { fcRoot } from "svelte-froalacharts";
+  import { fcRoot } from "svelte-froalacharts";
 
-  import ChartContainer from "./components/ChartContainer.svelte";
-  import SpecsBox from "./components/SpecsBox.svelte";
-  import SpecItem from "./components/SpecItem.svelte";
   import Carbon from "./charts/Carbon.svelte";
   import Frappe from "./charts/Frappe.svelte";
   import Froala from "./charts/Froala.svelte";
@@ -20,19 +17,5 @@
     <Frappe />
 
     <Froala />
-  </div>
-
-  <div class="flex flex-wrap">
-    <!-- Bar -->
-
-    <!-- Donut -->
-
-    <!-- Pie -->
-
-    <!-- Line -->
-
-    <!-- Line + Bar -->
-
-    <!-- Gauge -->
   </div>
 </main>

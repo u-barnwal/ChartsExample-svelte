@@ -1,14 +1,12 @@
 <script>
-  import FroalaCharts from "froalacharts";
-  import FroalaTheme from "froalacharts/themes/froalacharts.theme.froala";
-  import SvelteFC, { fcRoot } from "svelte-froalacharts";
+  import SvelteFC from "svelte-froalacharts";
 
   import ChartContainer from "../components/ChartContainer.svelte";
   import SpecsBox from "../components/SpecsBox.svelte";
   import SpecItem from "../components/SpecItem.svelte";
 </script>
 
-<div class="w-1/3 px-3">
+<div class="w-100 lg:w-1/3 px-3">
   <a
     class="hover:no-underline flex items-center"
     href="https://froala.com/charts/docs/frameworks/svelte/"
