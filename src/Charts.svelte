@@ -17,136 +17,20 @@
   import ChartContainer from "./components/ChartContainer.svelte";
   import SpecsBox from "./components/SpecsBox.svelte";
   import SpecItem from "./components/SpecItem.svelte";
+  import Carbon from "./charts/Carbon.svelte";
+  import Frappe from "./charts/Frappe.svelte";
+  import Froala from "./charts/Froala.svelte";
 
   fcRoot(FroalaCharts, FroalaTheme);
 </script>
 
 <main class="p-5 lg:p-10">
   <div class="lg:flex flex-wrap mb-3">
-    <div class="w-1/3 px-3">
-      <a
-        class="text-3xl hover:no-underline"
-        href="https://www.npmjs.com/package/@carbon/charts-svelte"
-        target="_blank">Carbon</a
-      >
+    <Carbon />
 
-      <SpecsBox title="Styling">
-        <SpecItem
-          title="Color"
-          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-colors--custom-colors-simple-bar"
-          >Customizable</SpecItem
-        >
-        <SpecItem
-          title="Legends"
-          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-legend--centered-legend-simple-bar"
-          >Highly Customizable, Truncateable</SpecItem
-        >
-        <SpecItem
-          title="Locale"
-          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-locale--turkish-locale-date-fns-locales"
-          >Supported</SpecItem
-        >
-        <SpecItem
-          title="Toolbar"
-          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-toolbar--vertical-stacked-bar-time-series"
-          >Zoom In/Out, Undo, Range</SpecItem
-        >
-        <SpecItem
-          title="Thresholds"
-          link="https://carbon-design-system.github.io/carbon-charts/svelte/?path=/story/utility-thresholds--thresholds-line"
-          >Supported</SpecItem
-        >
-        <SpecItem title="Tooltip" con>Not Customizable</SpecItem>
-      </SpecsBox>
+    <Frappe />
 
-      <SpecsBox title="Features">
-        <SpecItem>Responsive</SpecItem>
-        <SpecItem>Interactive</SpecItem>
-        <SpecItem>Easy to Use</SpecItem>
-        <SpecItem con>Not Exportable</SpecItem>
-        <SpecItem con>Not Animateable</SpecItem>
-      </SpecsBox>
-    </div>
-
-    <div class="w-1/3 px-3">
-      <a
-        class="text-3xl hover:no-underline"
-        href="https://www.npmjs.com/package/svelte-frappe-charts"
-        target="_blank">Frappe</a
-      >
-
-      <SpecsBox title="Styling">
-        <SpecItem
-          title="Color"
-          link="https://frappe.io/charts/docs/reference/configuration#colors"
-          >Customizable</SpecItem
-        >
-        <SpecItem
-          title="Legends"
-          link="https://frappe.io/charts/docs/reference/configuration#tooltipoptions"
-          >Truncateable</SpecItem
-        >
-        <SpecItem title="Locale" con>Not Supported</SpecItem>
-        <SpecItem title="Thresholds" con>Not Supported</SpecItem>
-        <SpecItem title="Toolbar" con>Unavailable</SpecItem>
-        <SpecItem
-          title="Tooltip"
-          link="https://frappe.io/charts/docs/reference/configuration#tooltipoptions"
-          >Customizable</SpecItem
-        >
-      </SpecsBox>
-
-      <SpecsBox title="Features">
-        <SpecItem>Responsive</SpecItem>
-        <SpecItem con>Not Interactive</SpecItem>
-        <SpecItem>Easy to Use</SpecItem>
-        <SpecItem>Exportable</SpecItem>
-        <SpecItem>Animated</SpecItem>
-      </SpecsBox>
-    </div>
-
-    <div class="w-1/3 px-3">
-      <a
-        class="hover:no-underline flex items-center"
-        href="https://froala.com/charts/docs/frameworks/svelte/"
-        target="_blank"
-      >
-        <span class="text-3xl">Froala</span>
-        <a
-          class="bg-yellow-600 text-xs inline-block py-1 px-2 text-white rounded-md ml-2"
-          href="https://froala.com/charts/pricing/"
-          target="_blank">Paid</a
-        ></a
-      >
-
-      <SpecsBox title="Styling">
-        <SpecItem
-          title="Color"
-          link="https://froala.com/charts/docs/api/options/"
-          >Customizable</SpecItem
-        >
-        <SpecItem
-          title="Legends"
-          link="https://froala.com/charts/docs/api/options/"
-          >Customizable</SpecItem
-        >
-        <SpecItem title="Locale" con>Not Supported</SpecItem>
-        <SpecItem title="Thresholds" con>Not Supported</SpecItem>
-        <SpecItem
-          title="Toolbar"
-          link="https://froala.com/charts/docs/api/options/">Export</SpecItem
-        >
-        <SpecItem title="Tooltip" con>Not Customizable</SpecItem>
-      </SpecsBox>
-
-      <SpecsBox title="Features">
-        <SpecItem>Responsive</SpecItem>
-        <SpecItem>Interactive</SpecItem>
-        <SpecItem con>Not Easy to Use</SpecItem>
-        <SpecItem>Exportable</SpecItem>
-        <SpecItem>Animated</SpecItem>
-      </SpecsBox>
-    </div>
+    <Froala />
   </div>
 
   <div class="flex flex-wrap">
