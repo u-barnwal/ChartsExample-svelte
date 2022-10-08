@@ -17,8 +17,8 @@
       />
     </a>
 
-    <a target="_blank" href="https://utsavbarnwal.me/" title="Developer"
-      ><img src="https://utsavbarnwal.me/images/user.jpeg" alt="developer" /></a
+    <a target="_blank" href="https://utsav.pro/" title="Developer"
+      ><img src="https://github.com/utsavdotpro.png" alt="developer" /></a
     >
   </div>
 </div>
